@@ -1,0 +1,43 @@
+.expedition-main-section
+    max-width: 124rem
+    width: 100%
+    display: flex
+    justify-content: center
+    flex-direction: column
+    animation: HrefToUp .5s ease-out 1.8s
+    animation-fill-mode: backwards
+    line-height: 1.5
+    @include respond(tab-port)
+        animation: none
+
+   
+
+
+    &__text
+        margin-bottom: 4rem
+        @include respond(mid-screen)
+            padding: 0 4rem 0 4rem
+    &__btn-top
+        display: flex
+        justify-content: center
+        margin-bottom: 2rem
+    
+    
+.wrapper
+
+    display: flex
+    justify-content: space-between
+    @include respond(tab-land)
+        justify-content: space-around
+    @include respond(tab-port)
+        flex-direction: column
+        justify-content: center
+    &__col-1
+        @include respond(tab-port)
+
+            margin: 0 auto
+    &__col-2
+        @include respond(tab-port)
+
+            margin: 0 auto
+

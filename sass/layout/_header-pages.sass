@@ -1,0 +1,22 @@
+//Позиционирование заголовков всех страниц, кроме главной
+.header-pages
+    position: relative
+    margin-bottom: 4rem
+    z-index: 5
+    &__nav
+        padding-top: 5rem
+        margin-bottom: 4rem
+    &__title
+        display: flex
+        justify-content: center
+
+
+.header-text
+    display: flex
+    border-bottom: .1rem solid #FFFFFF
+    justify-content: center
+    animation: fade-in .4s ease-out 1s
+    animation-fill-mode: backwards 
+    @include respond(tab-port)
+        animation: none
+        padding: 0 5rem

@@ -1,0 +1,95 @@
+.link-zin
+    border-top: .1rem solid #FFFFFF
+    position: absolute
+    bottom: 2%
+    right: 1%
+    animation: fade-in .4s ease-out 1s
+    animation-fill-mode: backwards 
+    z-index: 1000
+    @include respond(tab-port)
+        display: none
+    a
+        text-decoration: none
+        color: #ffffff
+        font-size: 1.6rem
+        @include respond(tab-port)
+            font-size: 2rem
+        @include respond(phone)
+            font-size: 1.6rem
+            bottom: 0
+            right: 0
+
+.link-home
+    padding-top: 2%
+    animation: fade-in .4s ease-out 1s
+    animation-fill-mode: backwards 
+    @include respond(tab-port)
+            animation: none
+            text-align: center
+    a
+        text-decoration: none
+        color: #ffffff
+        font-size: 1.6rem
+        line-height: 4rem
+        text-transform: uppercase
+        @include respond(phone)
+            font-size: 1.6rem
+    &__rus-vers
+        text-align: center
+        padding-bottom: 2rem
+        border-bottom: .1rem solid #FFFFFF
+
+.link-pages
+    text-align: center
+    padding-top: 1%
+    a
+        text-decoration: none
+        color: #ffffff
+        font-size: 1.6rem
+        line-height: 4rem
+        text-transform: uppercase
+  
+.link-eng
+    &_title
+        position: absolute
+        z-index: 1
+        top: 1%
+        left: 2%
+        animation: fade-in .4s ease-out 1s
+        animation-fill-mode: backwards 
+        @include respond(tab-port)
+            animation: none
+        a
+            text-decoration: none
+            color: #ffffff
+            font-size: 1.6rem
+            line-height: 4rem
+            text-transform: uppercase
+            @include respond(phone)
+                font-size: 1.8rem
+    &_pages
+        padding-top: 2%
+        @include respond(phone)
+            padding-top: 3%
+
+        a
+            text-decoration: none
+            color: #ffffff
+            font-size: 1.6rem
+            line-height: 4rem
+            text-transform: uppercase
+            @include respond(phone)
+                font-size: 1.8rem
+
+
+.vl
+    height: 1.6rem
+    margin: 3rem
+    border-left: 1px solid #FFFFFF
+    padding-top: 2%
+    animation: fade-in .4s ease-out 1s
+    animation-fill-mode: backwards 
+    @include respond(tab-port)
+            animation: none
+    @include respond(phone)
+        height: 4rem

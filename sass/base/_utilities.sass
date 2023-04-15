@@ -1,0 +1,110 @@
+.title-pages-animation
+    animation: LeftToRight 1.5s ease .5s
+    backface-visibility: hidden
+    animation-fill-mode: backwards
+    @include respond(tab-port)
+            animation: none
+
+//Жирное начертание текста
+.text-bold
+    font-weight: bold
+
+//Float-left
+.float-left
+    float: left
+    margin: 0 2rem .5rem 0
+    text-align: center
+    @include respond(mid-screen)
+        margin: 0 3rem 1rem 0
+    @include respond(tab-land)
+        margin: 0 3rem 1rem 0
+    @include respond(phone)
+        margin: 0 5rem 1rem 0
+
+
+
+
+//Float-right
+.float-right
+    float: right
+    margin-left: 2rem
+    text-align: center
+    @include respond(tab-land)
+        margin-left: -1rem
+    @include respond(tab-port)
+        margin-left: -1rem
+
+    @include respond(phone)
+        margin-left: 1rem
+
+
+
+//ширина фото 23rem
+.width-23rem
+    width: 23rem
+    @include respond(tab-land)
+        width: 31rem
+
+
+
+  
+
+//отступ 1rem
+.margin-left-1rem
+    @include respond(tab-land)
+        margin-left: 1rem
+
+
+
+//ширина фото 11.5rem
+.width-11rem
+    width: 11.5rem
+
+//Отступ для текста
+.text-indent
+    text-indent: 5rem
+
+
+//Выравниваие текста по ширине контейнера
+.text-align-justify
+    text-align: justify
+
+//Выравниваие текста по центру
+.text-align-center
+    text-align: center
+
+
+//жирное начертание текста
+.text-bold
+    font-weight: bold
+
+.max-width 
+    max-width: 124rem
+
+//отступ для float
+.clear
+    clear: both
+
+.italic-reg
+    font-family: Monserrat-italic 
+
+.italic-bold
+    font-family: Montserrat-Semibold-Italic
+
+
+
+//отступ снизу 20px
+.margin-bottom-2rem
+    margin-bottom: 2rem
+
+.display-none
+    display: none
+
+.mobile-float-none
+    @include respond(phone)
+        float: none
+        width: 100%
+
+.padding-left-right-5vh
+    @include respond(phone)
+        padding: 0 5vh

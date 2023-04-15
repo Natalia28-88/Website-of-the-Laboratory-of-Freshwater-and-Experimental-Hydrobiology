@@ -1,0 +1,81 @@
+//Основные настройки страниц (отступы, шрифт)
+*, ::after
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+@font-face 
+    font-family: "MonserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+
+@font-face 
+    font-family: "MonserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+
+@font-face 
+    font-family: "Monserrat-italic"
+    src: url('../fonts/Montserrat-Italic.ttf')
+    font-style: normal
+
+@font-face 
+    font-family: "Montserrat-Semibold-Italic"
+    src: url('../fonts/Montserrat-SemiBoldItalic.ttf')
+    font-style: normal
+
+html
+    font-size: 62.5%
+    font-family: "MonserratT"
+    @include respond(mid-screen)
+        font-size: 56.25%
+    @include respond(tab-land)
+        font-size: 50%
+    @include respond(tab-port)
+        font-size: 50%
+    @include respond(phone)
+        font-size: 45%
+
+.container
+    max-width: 124rem
+    margin: 0 auto
+    position: relative
+
+.body-home
+    background: linear-gradient(0deg, rgba(21, 43, 74, 0.6), rgba(21, 43, 74, 0.6)), url(../img/main-background-photo.jpg) center / cover no-repeat
+    background-attachment: fixed
+    width: 100%
+    height: 100vh
+    position: relative
+
+.body-history
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/history-photo.jpg) center / cover no-repeat
+    background-attachment: fixed
+    width: 100%
+
+.body-expedit
+    position: relative
+    z-index: 0
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg-expedit-vid.jpg) center / cover no-repeat
+    background-attachment: fixed
+    width: 100%
+    
+.body-science
+    background: linear-gradient(0deg, rgba(39, 62, 108, 0.54), rgba(39, 62, 108, 0.54)), url(../img/science-photo.jpg) center / cover no-repeat
+    background-attachment: fixed
+    width: 100%
+    height: 100vh
+    position: relative
+
+.body-collection
+    background: linear-gradient(0deg,rgba(44, 111, 150, 0.3) 21.89%, rgba(1, 1, 1, 0.7) 99.94%), url(../img/collections-photo.jpg) center / cover no-repeat
+    background-attachment: fixed
+    width: 100%
+
+.body-monographs
+    background: linear-gradient(90deg,rgba(44, 111, 150, 0.3) 21.89%, rgba(1, 1, 1, 0.7) 99.94%), url(../img/publications-photo.jpg) center / cover no-repeat
+    background-attachment: fixed
+    width: 100%
+    position: relative

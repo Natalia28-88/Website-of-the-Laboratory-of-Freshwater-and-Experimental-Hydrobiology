@@ -1,0 +1,36 @@
+//Настройка теблицы из раздела "Коллекции"
+.table
+    border-collapse: separate
+    border-spacing: 0rem 1.5rem
+    font-weight: bold
+    color: $color-black
+    font-size: 1.8rem
+    padding: 0 4rem
+    th
+        padding: 1rem 2rem
+        background: #5ca0c7
+        color: $color-black
+        border: .1rem solid
+        border-top: .2rem solid $color-black
+        border-bottom: .2rem solid $color-black
+        max-width: 40%
+        vertical-align: middle
+
+        &:first-child
+            border-left: .2rem solid $color-black
+        &:last-child
+            border-right: .2rem solid $color-black
+
+    td
+        vertical-align: middle
+        text-align: center
+        padding: 2rem
+        border-top: .1rem solid $color-black
+        border-bottom: .1rem solid $color-black
+        border-right: .1rem solid $color-black
+        &:first-child
+            border-left: .1rem solid $color-black
+            min-width: 40%
+
+
+ 
