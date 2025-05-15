@@ -1,6 +1,6 @@
 # 🌿 Website for the Laboratory of Freshwater and Experimental Hydrobiology
 
-- Static website created for a real laboratory as part of a practical assignment.  
+- Static website created for a real laboratory as part of a practical assignment.
 - The task was to design and build a fully responsive layout **without using JavaScript**.
 
 ## 🛠 Tech Stack
@@ -20,7 +20,7 @@
 - `/css` – styles for the website
 - `/img` – images used on the website
 - `/index.html` – main page
-- `/science.html` – research areas
+- `/science.html` – research areas page
 - `/expeditions.html` – expeditions page
 - `/history.html` – history page
 - `/monographs.html` – publications page
@@ -29,5 +29,34 @@
 
 ## 🖼 Screenshots
 
+> _Screenshots are taken from the live website._
 
-## [demo](https://natalia28-88.github.io/Website-of-the-Laboratory-of-Freshwater-and-Experimental-Hydrobiology)
+> 🖼 **Main Page**  
+> ![Main Page Screenshot](./img/main-page-screenshot.png)
+
+> 🖼 **Expeditions**  
+> ![Expeditions](./img/expeditions-screenshot.png)
+
+> 🖼 **Publications (English version)**  
+> ![Publications](./img/publications-screenshot.png)
+
+> 🖼 **Mobile devices**  
+> ![Mobile devices](./img/mobile-devices-screenshot.png)
+
+## 🚀 Demo Link
+
+🔗 [Live Demo on GitHub Pages](https://natalia28-88.github.io/Website-of-the-Laboratory-of-Freshwater-and-Experimental-Hydrobiology/)
+
+## 🚀 Live Demo
+
+🔗 You can view the website here: [Live Demo](https://www.zin.ru/labs/freshwater/)
+
+## 💡 Notes
+
+- This project was intentionally developed **without JavaScript**, as per task requirements.
+- Focus on **semantic HTML**, **responsive CSS**, and **pixel-perfect design**.
+- My first real-world website project — from **design to deployment**.
+
+## 📄 License
+
+MIT
